@@ -1,6 +1,8 @@
 
 package ec.edu.Intsuperior.Vista;
 
+
+import ec.edu.Intsuperior.Modelo.Persona;
 import java.util.Scanner;
 
 public class Aplicacion {
@@ -9,16 +11,24 @@ public class Aplicacion {
     
     public static void main(String[]args){
         Aplicacion.adivinarNumero();
+        Persona objetoJuan= new Persona();
+        /*objetoJuan.setApellido1("Chicaiza");
+        objetoJuan.setApellido2("Ulcuango");
+        objetoJuan.setNombre1("Juan");
+        objetoJuan.setNombre2("Fernando");
+        System.out.println(objetoJuan.getApellido1());*/
         //Aplicacion.medodoUno();
         //Aplicacion.metodoDos();
         //Aplicacion.medotoTres();
         
+       /* Estudiante objetoJuan= new Estudiante();
+        ob*/
         
         //Aplicacion.usoOperaciones();
         //Aplicacion.promedio();
         //Aplicacion.multiplicacion();
         //Aplicacion.division();
-          Aplicacion.resto();
+        // Aplicacion.resto();
     }
     public static void medodoUno(){
         int i=1;
